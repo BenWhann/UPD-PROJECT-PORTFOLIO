@@ -1,0 +1,11 @@
+header {
+    display: flex;
+}
+
+.header {
+    display: inline-block;
+}
+
+footer {
+    border-top: 1px solid;
+}
