@@ -6,12 +6,19 @@
     width: 18px;
 }
 
-footer {
-    border-top: 1px solid;
-}
-
 .yes {
     width: 25%;
     height: 25%;
     border-radius: 10px;
+}
+
+.feet {
+    border: 1px solid;
+    background-color: darkgray;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.feet:hover {
+    cursor: pointer;
 }

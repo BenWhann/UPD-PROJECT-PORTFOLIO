@@ -1,7 +1,7 @@
 export default function Portfolio() {
     return (
         <>
-        <body class="container">
+        <body class="container pb-3">
             <h1>Portfolio Page</h1>
             <div className="container">
                 <div class="row">
@@ -40,7 +40,7 @@ export default function Portfolio() {
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                {/* <div class="row">
                     <div class="card col">
                         <img src="..." class="card-img-top" alt="..."></img>
                         <div class="card-body">
@@ -57,7 +57,7 @@ export default function Portfolio() {
                             <a href="#" class="btn btn-primary">GitHub Link</a>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </body>
         </>
