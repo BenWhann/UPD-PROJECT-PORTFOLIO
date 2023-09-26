@@ -1,4 +1,14 @@
 export default function Contact() {
+
+    const saveInput = () => {
+        const inputName= document.getElementById("name");
+        localStorage.setItem("name", inputName.value);
+        const inputEmail= document.getElementById("email");
+        localStorage.setItem("email", inputEmail.value);
+        const inputMessage= document.getElementById("message");
+        localStorage.setItem("message", inputMessage.value);
+    }
+
     return (
         <>
         <body>
@@ -10,7 +20,7 @@ export default function Contact() {
                 <input className="form-control" type="email" id="email" name="email"></input>
                 <label className="form-label" for="message">Message:</label>
                 <input className="form-control" type="text" id="message" name="message"></input>
-                <button className="mt-3 btn btn-secondary" type="button">Submit</button>
+                <button onClick={saveInput} id="contact-btn" className="mt-3 btn btn-secondary" type="button">Submit</button>
             </form>
         </body>
         </>

@@ -3,7 +3,7 @@ export default function Resume() {
         <>
         <body>
             <h1>Resume Page</h1>
-            <p>Add Resume</p>
+            <p>I'll add my resume when I'm done with this bootcamp.</p>
         </body>
         </>
     );
